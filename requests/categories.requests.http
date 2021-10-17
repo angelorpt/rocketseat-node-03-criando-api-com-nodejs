@@ -1,0 +1,11 @@
+@baseURL = http://localhost:3000
+###
+GET {{baseURL}}/categories
+###
+POST {{baseURL}}/categories
+Content-Type: application/json
+
+{
+  "name": "SUV", 
+  "description": "Categoria de carro SUV"
+}json

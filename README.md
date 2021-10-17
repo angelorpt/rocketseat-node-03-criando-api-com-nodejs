@@ -35,3 +35,7 @@ yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
 ## Configurando ESLint
 
 [Click aqui](configurando_eslint.md) para visualizar a configuração do ESLint deste projeto.
+
+## Diagrama Relacional
+
+![diagrama-relacional](diagrama-relacional.png)
