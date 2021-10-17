@@ -28,7 +28,7 @@ yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
 
 ```json
   "scripts": {
-    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
   },
 ```
 
