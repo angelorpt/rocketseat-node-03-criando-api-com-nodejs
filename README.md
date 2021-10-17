@@ -10,6 +10,8 @@ yarn add typescript @types/express -D
 yarn add ts-node-dev -D
 yarn tsc --init
 yarn add eslint -D
+yarn add uuid
+yarn add @types/uuid -D
 ```
 
 ```bash

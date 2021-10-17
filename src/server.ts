@@ -8,6 +8,6 @@ app.get("/", (req, res) => {
   res.json({ message: "Hello World" });
 });
 
-app.use(categoriesRoutes);
+app.use("/categories", categoriesRoutes);
 
 app.listen(3000, () => console.log("API Running!"));
