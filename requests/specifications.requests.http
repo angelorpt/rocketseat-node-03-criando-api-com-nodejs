@@ -1,0 +1,11 @@
+@baseURL = http://localhost:3000
+###
+GET {{baseURL}}/specifications
+###
+POST {{baseURL}}/specifications
+Content-Type: application/json
+
+{
+  "name": "Câmbio automático", 
+  "description": "Carro com câmbio automático"
+}
