@@ -13,6 +13,11 @@ class CategoriesRepository {
     this.categories = [];
   }
 
+  findByName(name: string): Category {
+    const category = this.categories.find((c) => c.name === name);
+    return category;
+  }
+
   list(): Category[] {
     return this.categories;
   }
